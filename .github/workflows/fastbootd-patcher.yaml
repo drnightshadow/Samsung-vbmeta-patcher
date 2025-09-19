@@ -20,8 +20,8 @@ jobs:
         ./patch-vbmeta.sh
 
     - name: Patch recovery
-      run: |
-        ./patch-recovery.sh
+     # run: |
+       # ./patch-recovery.sh
 
     - name: Repack files into .tar.md5
       run: |
