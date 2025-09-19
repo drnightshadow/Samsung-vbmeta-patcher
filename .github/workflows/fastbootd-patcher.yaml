@@ -19,7 +19,7 @@ jobs:
       run: |
         ./patch-vbmeta.sh
 
-    - name: Patch recovery
+   # - name: Patch recovery
      # run: |
        # ./patch-recovery.sh
 
